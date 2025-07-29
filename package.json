@@ -1,0 +1,40 @@
+{
+  "name": "hanover-helpers",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:netlify": "netlify dev",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@google/genai": "^1.11.0",
+    "netlify-identity-widget": "^1.9.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.7.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@netlify/plugin-critical-css": "^5.0.3",
+    "@netlify/plugin-lighthouse": "^5.0.0",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^16.0.0",
+    "@types/netlify-identity-widget": "^1.9.6",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@types/uuid": "^9.0.8",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^24.1.0",
+    "netlify-plugin-sitemap": "^0.11.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.6.0"
+  }
+}
